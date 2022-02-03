@@ -1,4 +1,4 @@
-##3.1 Print and None
+## 3.1 Print and None
 -2 vs. print(-2):结果看似没有区别。
 “Go Bears!” vs. print(‘Go Bears!’) : 前者带引号后者不带。
 None vs. print(None):前者啥也没有后者打印出啦None.
@@ -11,7 +11,7 @@ None is not displayed by the interpreter as the value of an expression. (That is
 Pure Functions and Non-Pure Functions
 
 
-##3.2 Multiple Environment
+## 3.2 Multiple Environment
 A name evaluates to the value bond to that name in the earliest frame of the current environment in which that name is found.
 一个name的值，是在当前envionrment中最早的frame里与这个name bond的值。
 
@@ -19,7 +19,7 @@ An environment is a sequence of frames:
 The global frame alone
 A local, then the global frame
 
-##3.3 Miscellaneous Python Features
+## 3.3 Miscellaneous Python Features
 3.3.1 Two types of divisions
 True division: / or from operator import truediv
 Floor division: // or from operator import floorfiv
@@ -27,7 +27,7 @@ Floor division: // or from operator import floorfiv
 3.3.3 Docstrings
 3.3.4 Doctests
 
-##3.4 Conditional Statement
+## 3.4 Conditional Statement
 A statement is executed by the interpreter to perform an action.
 A statement consists of clauses. A clause consists of a header and suite.
 E.g.
@@ -46,4 +46,4 @@ else: //caluse 3的header
 False values in Python: False, 0, ‘ ‘,None
 True values in Python:Anything else
 
-3.5 Iteration
+## 3.5 Iteration
